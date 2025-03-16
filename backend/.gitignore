@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+
+# Environment variables (API keys, MongoDB URI, etc.)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs and process files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pm2.log
+pids/
+*.pid
+*.seed
+
+# Database and cache files
+*.sqlite3
+*.db
+dump.rdb
+*.lock
+
+# Build output
+dist/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.ps1
