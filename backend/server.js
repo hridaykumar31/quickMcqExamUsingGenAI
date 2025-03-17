@@ -21,7 +21,7 @@ app.use(
 app.use('/uploads', express.static('uploads'));
 app.use(express.json());
 
-const API_KEY = process.env.API_KEY || "AIzaSyCUFfTsG3-dU9X-t6CleeQbAUSRNzaD9Qk";
+const API_KEY = process.env.API_KEY;
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 app.post('/api/generate', async (req, res) => {
